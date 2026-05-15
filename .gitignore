@@ -36,3 +36,6 @@ Thumbs.db
 # Logs and databases
 *.log
 *.sqlite3
+
+# Personal attribution rules
+config/attribution_rules.yaml

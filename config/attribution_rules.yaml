@@ -1,25 +1,501 @@
-# Attribution Rules Template
-#
-# This file allows you to define custom rules for transaction attribution.
-# Replace the example entries with your own merchant-specific rules.
-#
-# Format:
-# MERCHANT_NAME:
-#   PersonName:
-#     category: category_name
-#     split_ratio: 0.5  # 0.0 to 1.0, where 0.5 means 50/50 split
-#
-# Example entries:
 rules:
-  EXAMPLE RESTAURANT:
-    Person1:
+  61680 RIVER DR:
+    Adsy:
+      category: travel
+      split_ratio: 0.5
+  AMBICA NEWSSTAND:
+    Adsy:
+      category: vacation
+      split_ratio: 0.0
+  AMC:
+    Adsy:
+      category: entertainment
+      split_ratio: 0.5
+    Sub:
+      category: entertainment
+      split_ratio: 0.5
+  APPLE:
+    Adsy:
+      category: shopping
+      split_ratio: 1.0
+  APPLE COM BILL:
+    Sub:
+      category: shopping
+      split_ratio: 0.5
+  APPLE SERVICES:
+    Adsy:
+      category: subscriptions
+      split_ratio: 0.0
+  ARAJET PUNTA CANA:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  ARCO 07048ARCO 07048:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  ARITZIA:
+    Adsy:
+      category: shopping
+      split_ratio: 0.0
+  ASHTAVINAYAK:
+    Sub:
       category: dining
       split_ratio: 0.5
-    Person2:
+  ATT BILL:
+    Adsy:
+      category: utilities
+      split_ratio: 0.0
+  AVIS RENT CAR:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  BALAJI BHAVAN:
+    Sub:
       category: dining
       split_ratio: 0.5
-
-  EXAMPLE SUBSCRIPTION:
-    Person1:
+  BANGALORE KITCHEN:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  BIBA:
+    Adsy:
+      category: shopping
+      split_ratio: 0.0
+  BRISAS DEL CARIBE:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  BUDGET COM PREPAY:
+    Sub:
+      category: travel
+      split_ratio: 0.5
+  BUONGIORNO GELATERIA IT:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  BWE KAFE BWE:
+    Adsy:
+      category: dining
+      split_ratio: 0.0
+  CANONICA PRI:
+    Adsy:
+      category: vacation
+      split_ratio: 0.5
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  CAREPOINT HEALTH MEDIC:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  CHICK FIL APP:
+    Adsy:
+      category: vacation
+      split_ratio: 0.5
+  CHIPOTLE MEX GR:
+    Adsy:
+      category: dining
+      split_ratio: 0.5
+  CL CHASE TRAVEL:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  CLAUDE AI SUBSCRIPTION:
+    Sub:
+      category: subscriptions
+      split_ratio: 0.5
+  CLOVES INDIAN RESTAURA:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DAILY CASH ADJUSTMENT:
+    Adsy:
+      category: uncategorized
+      split_ratio: 0.0
+  DD DOORDASH BENNYTUDI:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH BIKANERVA:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH CHICK:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH CLOVEGARD:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH EMPYREANB:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH EMPYREANI:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH HOLYBURGE:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH HONESTRES:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH JUSTSALAD:
+    Sub:
+      category: dining
+      split_ratio: 1.0
+  DD DOORDASH KARMAKAFE:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH PIZZATWIS:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DD DOORDASH THEINDIAN:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DOORDASH ORDER:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  DUANE READE:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  DUN HUANG JERSEY:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  EATALY NY CATAPULT:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  ELEVEN 15191:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  EXCELLENCE PUNTA CANA:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  FOODA:
+    Adsy:
+      category: dining
+      split_ratio: 0.0
+    Sub:
+      category: dining
+      split_ratio: 0.0
+  GITHUB:
+    Sub:
       category: subscriptions
       split_ratio: 1.0
+  GREGORYS COFFEE:
+    Adsy:
+      category: dining
+      split_ratio: 0.0
+  GWL MANTECA BUCKETS:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  GWL MANTECA HUNGRY:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  HBO MAX:
+    Adsy:
+      category: subscriptions
+      split_ratio: 0.5
+  HOBOKEN:
+    Adsy:
+      category: dining
+      split_ratio: 0.0
+  HOTEL EXCELLENCE PC:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  HUDSONNEWS:
+    Adsy:
+      category: travel
+      split_ratio: 0.5
+  INDIA SAJAWAT PUJA:
+    Adsy:
+      category: groceries
+      split_ratio: 0.5
+  INSOMNIA COOKIES HOBOK:
+    Adsy:
+      category: dining
+      split_ratio: 0.5
+  JPMC 270PARK HALL:
+    Sub:
+      category: dining
+      split_ratio: 1.0
+  KBEAUTY KOLLECTION:
+    Adsy:
+      category: shopping
+      split_ratio: 0.0
+  KIKILU GELATO:
+    Adsy:
+      category: dining
+      split_ratio: 0.5
+  KOHL:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  KUDOBOARD:
+    Adsy:
+      category: uncategorized
+      split_ratio: 0.0
+  LA RUSTICA:
+    Adsy:
+      category: utilities
+      split_ratio: 0.5
+  LOFT:
+    Adsy:
+      category: shopping
+      split_ratio: 0.0
+  LYFT:
+    Adsy:
+      category: travel
+      split_ratio: 0.0
+    Sub:
+      category: travel
+      split_ratio: 0.5
+  MORTON WILLIAMS:
+    Adsy:
+      category: groceries
+      split_ratio: 0.5
+  MTA LIRR STATION:
+    Adsy:
+      category: vacation
+      split_ratio: 0.0
+  MTA NYCT PAYGO:
+    Sub:
+      category: travel
+      split_ratio: 1.0
+  MYSTIQUE BEAUTY:
+    Adsy:
+      category: entertainment
+      split_ratio: 0.0
+  NEW YORK PRESBYTERIAN:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  NEWPORT:
+    Sub:
+      category: dining
+      split_ratio: 1.0
+  NEWPORT CENTRE:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  NJIN OF HOBOKEN:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  NYCT PAYGO:
+    Adsy:
+      category: travel
+      split_ratio: 0.0
+  OASIS DV RANCH:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  PANDA EXPRESS 110:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  PATH TAPP PAYGO:
+    Adsy:
+      category: travel
+      split_ratio: 0.0
+    Sub:
+      category: travel
+      split_ratio: 1.0
+  PYN US CRZYOGA:
+    Adsy:
+      category: shopping
+      split_ratio: 0.0
+  QUEST DIAGNOSTICS:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  SEPHORA COM:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  SMART PARK:
+    Adsy:
+      category: vacation
+      split_ratio: 0.5
+  SPEEDWAY 44785:
+    Sub:
+      category: travel
+      split_ratio: 0.5
+  SQ CAFE DOLMA:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  SQ CHANDNI CHOWK:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  SQ LB:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  STAPLES:
+    Adsy:
+      category: uncategorized
+      split_ratio: 0.0
+  STARBUCKS 8007827282:
+    Adsy:
+      category: vacation
+      split_ratio: 0.5
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  STOP SHOP:
+    Adsy:
+      category: groceries
+      split_ratio: 0.5
+  SUBZI MANDI:
+    Adsy:
+      category: groceries
+      split_ratio: 0.5
+  TACO BELLAIPC TERM:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  TARGET:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  THORNE RESEARCH:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  TONY PIZZA PZA:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  TOWER PIZZERIA:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  TST APOLLO BAGELS:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST CAFE WHA:
+    Sub:
+      category: dining
+      split_ratio: 0.14
+  TST EMPYREAN INDIAN:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST GREGORYS COFFEE:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST HONEST KITCHEN:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST INCHINS BAMBOO:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST INDAY MIDTOWN:
+    Sub:
+      category: dining
+      split_ratio: 1.0
+  TST INDAY ROCKEFELLER:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST MAGNOLIA BAKERY:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST ONDO JC:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST PARIS BAGUETTE:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST SARAVANAA BHAVAN:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST SPICY MOON:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  TST TOPGOLF SAN:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  TURNING POINT HOBOKEN:
+    Sub:
+      category: dining
+      split_ratio: 1.0
+  UBER:
+    Adsy:
+      category: dining
+      split_ratio: 0.5
+    Sub:
+      category: travel
+      split_ratio: 0.5
+  UDON LAB:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  ULTA:
+    Adsy:
+      category: uncategorized
+      split_ratio: 0.5
+  UNIQLO NEWPORT:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  UNIQLO USA:
+    Adsy:
+      category: shopping
+      split_ratio: 0.5
+  UNITED:
+    Sub:
+      category: vacation
+      split_ratio: 0.5
+  VENCHI:
+    Sub:
+      category: dining
+      split_ratio: 0.5
+  WEEE:
+    Adsy:
+      category: groceries
+      split_ratio: 0.5
+    Sub:
+      category: groceries
+      split_ratio: 0.5
+  WEILL CORNELL MEDICAL:
+    Adsy:
+      category: health
+      split_ratio: 0.0
+  WONDER:
+    Adsy:
+      category: dining
+      split_ratio: 0.0
+  ZAITOON KITCHEN:
+    Adsy:
+      category: dining
+      split_ratio: 0.5
