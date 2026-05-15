@@ -1,0 +1,6 @@
+use_llm: true
+pdf_llm_fallback: true
+llm_model: gpt-4o-mini
+
+# Names to scrub from PDF text before sending to LLM
+owner_names: []  # e.g. ["John Smith", "Jane Doe"]

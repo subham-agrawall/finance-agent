@@ -1,0 +1,38 @@
+# Data and personal files
+sample_data/
+*.csv
+data/finance.db
+
+# Environment and sensitive configs
+.env
+*.env
+config/accounts.yaml
+
+# Python specifics
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3

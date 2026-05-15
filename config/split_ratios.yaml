@@ -1,0 +1,15 @@
+# Default split ratio for group-eligible categories.
+# 0.5 = 50/50 split. 1.0 = individual (no split).
+# This is what Sub pays of the total when marked as shared (other).
+dining: 0.5
+groceries: 0.5
+utilities: 0.5
+subscriptions: 0.5
+rent: 0.5
+travel: 0.5
+vacation: 0.5
+entertainment: 0.5
+rides: 1.0
+health: 1.0
+shopping: 1.0
+uncategorized: 1.0
